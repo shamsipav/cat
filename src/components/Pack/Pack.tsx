@@ -3,7 +3,8 @@ import React, {FC, useState} from 'react';
 import styles from './pack.module.css';
 import {num_word} from '../../utils/functions';
 
-interface PackProps {
+export interface IPack {
+    id?: string
     label?: string
     name?: string
     product: string
@@ -16,7 +17,7 @@ interface PackProps {
     className?: string
 }
 
-const Pack: FC<PackProps> = (
+const Pack: FC<IPack> = (
     {
         name = 'Нямушка',
         label= 'Сказочное заморское явство',
