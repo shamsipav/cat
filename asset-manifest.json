@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cat/static/css/main.b6b9f0d1.css",
-    "main.js": "/cat/static/js/main.216f09f0.js",
+    "main.css": "/cat/static/css/main.c5890940.css",
+    "main.js": "/cat/static/js/main.afbe76ad.js",
     "static/media/TrebuchetMS.eot": "/cat/static/media/TrebuchetMS.a39cca2d6c78afd39d8f.eot",
     "static/media/TrebuchetMS.ttf": "/cat/static/media/TrebuchetMS.d69a72044b0a638fd1a5.ttf",
     "static/media/TrebuchetMS-Bold.eot": "/cat/static/media/TrebuchetMS-Bold.cf07b813e87a6896b44b.eot",
@@ -11,11 +11,11 @@
     "static/media/background.png": "/cat/static/media/background.8b93e2127ee44e2a8146.png",
     "static/media/Exo2.0-Thin.otf": "/cat/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
     "index.html": "/cat/index.html",
-    "main.b6b9f0d1.css.map": "/cat/static/css/main.b6b9f0d1.css.map",
-    "main.216f09f0.js.map": "/cat/static/js/main.216f09f0.js.map"
+    "main.c5890940.css.map": "/cat/static/css/main.c5890940.css.map",
+    "main.afbe76ad.js.map": "/cat/static/js/main.afbe76ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6b9f0d1.css",
-    "static/js/main.216f09f0.js"
+    "static/css/main.c5890940.css",
+    "static/js/main.afbe76ad.js"
   ]
 }
