@@ -80,11 +80,12 @@ select {
 }
 
 .main {
+    padding: 36px 0px;
     background-image: url("./assets/img/background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     align-items: center;
@@ -111,7 +112,6 @@ select {
 @media (max-width: 1199px) {
     .main {
         display: block;
-        padding: 36px 0px;
         height: 100%;
     }
 }
