@@ -51,7 +51,7 @@ const Pack: FC<PackProps> = (
                 onMouseEnter={() => hoverPack(true)}
                 onMouseLeave={() => hoverPack(false)}
             >
-                <img className={styles.cat} src="/img/cat.png" alt="cat" draggable={false} />
+                <img className={styles.cat} src="./img/cat.png" alt="cat" draggable={false} />
             </div>
             <div
                 className={choosed ? [styles.card, styles.choosedCard].join(' ') : (empty ? [styles.card, styles.emptyCard].join(' ') : styles.card)}
