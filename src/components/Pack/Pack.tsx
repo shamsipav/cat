@@ -4,7 +4,6 @@ import styles from './pack.module.css';
 import {num_word} from '../../utils/functions';
 
 export interface IPack {
-    id?: string
     label?: string
     name?: string
     product: string
