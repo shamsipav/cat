@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.heading {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px #000000;
+    margin-bottom: 24px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.packs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Portrait tablets and medium desktops */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .packs {
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        gap: 2em;
+    }
+
+    .pack {
+        grid-column: span 2;
+    }
+
+    .pack:nth-child(3) {
+        grid-column: 2 / span 2;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .packs {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 2em;
+    }
 }

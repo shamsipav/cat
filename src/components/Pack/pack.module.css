@@ -1,0 +1,163 @@
+.pack {
+    position: relative;
+    width: 320px;
+}
+
+.card, .cardMask {
+    position: relative;
+    font-family: 'Trebuchet MS';
+    height: 480px;
+    border-radius: 12px;
+    padding: 20px 16px 16px 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+    cursor: pointer;
+    overflow: hidden;
+
+    background-image: linear-gradient(135deg, transparent 5%, #1698D9 5% 100%, transparent 95%);
+    z-index: 0;
+}
+
+.card:after {
+    position: absolute;
+    content: '';
+    left: 4px;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    border-radius: 9px;
+    background-image: linear-gradient(135deg, transparent 5%, #F2F2F2 5% 100%, transparent 95%);
+    z-index: -1;
+}
+
+.cardMask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 4px solid transparent;
+    background: none;
+    z-index: 1;
+}
+
+.emptyCardMask {
+    cursor: default;
+}
+
+.emptyCardMask .cat {
+    opacity: 0.5;
+}
+
+.choosedCard {
+    background-image: linear-gradient(135deg, transparent 5%, #D91667 5% 100%, transparent 95%);
+}
+
+.emptyCard {
+    cursor: default;
+    background-image: linear-gradient(135deg, transparent 5%, #B3B3B3 5% 100%, transparent 95%);
+}
+
+.emptyCard p, .emptyCard span {
+    opacity: 0.5;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+}
+
+.name, .product {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.product {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.features {
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.count {
+    font-weight: 700;
+}
+
+.circle {
+    margin-top: auto;
+    margin-left: auto;
+    background: #1698D9;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.choosedCard .circle {
+    background: #D91667;
+}
+
+.emptyCard .circle {
+    background: #B3B3B3;
+}
+
+.weight, .measure {
+    opacity: 1 !important;
+}
+
+.weight {
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.measure {
+    font-size: 21px;
+    line-height: 22px;
+}
+
+.outside {
+    font-family: 'Trebuchet MS';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.emptyOutside {
+    color: #FFFF66;
+}
+
+.buy {
+    color: #22A7E9;
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #22A7E9;
+    padding: 0;
+    cursor: pointer;
+}
+
+.blue {
+    color: #22A7E9;
+}
+
+.cat {
+    position: absolute;
+    bottom: -88px;
+    left: -24px;
+    user-select: none;
+}
