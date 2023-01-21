@@ -4,6 +4,7 @@ import styles from './pack.module.css';
 import {num_word} from '../../utils/functions';
 
 export interface IPack {
+    id?: number
     label?: string
     name?: string
     product: string
@@ -45,7 +46,6 @@ const Pack: FC<IPack> = (
     return (
         <div className={[styles.pack, className].join(' ')}>
             <div
-                // className={styles.cardMask}
                 className={empty ? [styles.cardMask, styles.emptyCardMask].join(' ') : styles.cardMask}
                 onClick={choosePack}
                 onMouseEnter={() => hoverPack(true)}

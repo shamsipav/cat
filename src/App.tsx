@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css'
-import Pack from "./components/Pack/Pack";
+import Pack, {IPack} from "./components/Pack/Pack";
 
 const App = () => {
 
-    const packs = [
+    const packs:IPack[] = [
         {
             id: 1,
             product: 'с фуа-гра',
