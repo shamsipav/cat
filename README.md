@@ -69,7 +69,7 @@
 - :hammer_and_wrench: Svelte (SvelteKit)
 - [x] [Ключевая ставка](https://econstaff.urfu.ru/) ‑ реализация сайта для дня открытых дверей Института экономики и управления УрФУ 
 - :hammer_and_wrench: Svelte (SvelteKit)
-- [x] Разработка админ‑панели для сайта Эндаумент Фонда УрФУ
+- [x] Разработка админ‑панели для сайта [Эндаумент Фонда УрФУ](https://endowment.urfu.ru/)
 - :hammer_and_wrench: Svelte (SvelteKit) + Node.js + PostgreSQL
-- [x] Разработка админ‑панели для сайта приёмной кампании Института новых материалов и технологий УрФУ
+- [x] Разработка админ‑панели для сайта приёмной кампании [Института новых материалов и технологий УрФУ](https://inmt-priem.urfu.ru/)
 - :hammer_and_wrench: Svelte (SvelteKit) + Node.js + PostgreSQL
