@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cat/static/css/main.c5890940.css",
-    "main.js": "/cat/static/js/main.afbe76ad.js",
+    "main.css": "/cat/static/css/main.daff34ba.css",
+    "main.js": "/cat/static/js/main.96dd8f44.js",
     "static/media/TrebuchetMS.eot": "/cat/static/media/TrebuchetMS.a39cca2d6c78afd39d8f.eot",
     "static/media/TrebuchetMS.ttf": "/cat/static/media/TrebuchetMS.d69a72044b0a638fd1a5.ttf",
     "static/media/TrebuchetMS-Bold.eot": "/cat/static/media/TrebuchetMS-Bold.cf07b813e87a6896b44b.eot",
@@ -10,12 +10,14 @@
     "static/media/TrebuchetMS-Bold.woff": "/cat/static/media/TrebuchetMS-Bold.ed76e98b5ec0933d740e.woff",
     "static/media/background.png": "/cat/static/media/background.8b93e2127ee44e2a8146.png",
     "static/media/Exo2.0-Thin.otf": "/cat/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
+    "static/media/Exo2.0-Thin.woff": "/cat/static/media/Exo2.0-Thin.42a06d409130ba5911bc.woff",
+    "static/media/Exo2.0-Thin.woff2": "/cat/static/media/Exo2.0-Thin.904a960e262795df90af.woff2",
     "index.html": "/cat/index.html",
-    "main.c5890940.css.map": "/cat/static/css/main.c5890940.css.map",
-    "main.afbe76ad.js.map": "/cat/static/js/main.afbe76ad.js.map"
+    "main.daff34ba.css.map": "/cat/static/css/main.daff34ba.css.map",
+    "main.96dd8f44.js.map": "/cat/static/js/main.96dd8f44.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5890940.css",
-    "static/js/main.afbe76ad.js"
+    "static/css/main.daff34ba.css",
+    "static/js/main.96dd8f44.js"
   ]
 }
