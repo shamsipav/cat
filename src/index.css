@@ -1,8 +1,17 @@
+/*@font-face {*/
+/*    font-family: "Exo2.0";*/
+/*    src: local("Exo2.0-Thin"),*/
+/*    url("assets/fonts/Exo2.0/Exo2.0-Thin.otf") format("opentype");*/
+/*    font-weight: 100;*/
+/*}*/
+
 @font-face {
-    font-family: "Exo2.0";
-    src: local("Exo2.0-Thin"),
-    url("assets/fonts/Exo2.0/Exo2.0-Thin.otf") format("opentype");
-    font-weight: 100;
+    font-family: 'Exo2.0';
+    src: url('assets/fonts/Exo2.0/Exo2.0-Thin.woff2') format('woff2'),
+    url('assets/fonts/Exo2.0/Exo2.0-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 *,
@@ -74,31 +83,22 @@ select {
 /* Пользовательские стили */
 .container {
     max-width: 1160px;
-    padding: 0px 20px;
+    padding: 0 20px;
     margin: 0 auto;
     width: 100%;
 }
 
 .main {
-    padding: 36px 0px;
+    padding: 36px 0;
     background-image: url("./assets/img/background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    height: 100vh;
 
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.grid {
-    display: grid;
-    gap: 80px;
-}
-
-.grid-3 {
-    grid-template-columns: repeat(3, 1fr);
 }
 
 .flex {

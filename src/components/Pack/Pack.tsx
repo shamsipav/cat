@@ -51,7 +51,7 @@ const Pack: FC<IPack> = (
                 onMouseEnter={() => hoverPack(true)}
                 onMouseLeave={() => hoverPack(false)}
             >
-                <img className={styles.cat} src="./img/cat.png" alt="cat" draggable={false} />
+                <img className={styles.cat} src="/cat/img/cat.png" alt="cat" draggable={false} />
             </div>
             <div
                 className={choosed ? [styles.card, styles.choosedCard].join(' ') : (empty ? [styles.card, styles.emptyCard].join(' ') : styles.card)}
@@ -92,11 +92,10 @@ const Pack: FC<IPack> = (
                         className={styles.outside}
                         onClick={choosePack}
                     >
-                        Чего сидишь? Порадуй котэ, <button className={styles.buy}>купи</button><span className={styles.blue}>.</span>
+                        Чего сидишь? Порадуй котэ, <button className={styles.buy}><span>купи</span></button><span className={styles.blue}>.</span>
                     </p>
                 )
             }
-            <div></div>
         </div>
     );
 };

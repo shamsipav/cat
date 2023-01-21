@@ -3,21 +3,29 @@
     line-height: 44px;
     text-align: center;
     color: #FFFFFF;
-    text-shadow: 0px 1px 1px #000000;
+    text-shadow: 0 1px 1px #000000;
     margin-bottom: 24px;
 }
 
+/* autoprefixer grid: autoplace */
 .packs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 1em;
+    justify-items: center;
+}
+
+.packs > * {
+    justify-self: center;
 }
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 768px) and (max-width: 1199px) {
+    /* autoprefixer grid: autoplace */
     .packs {
         grid-template-columns: repeat(4, 1fr);
-        justify-items: center;
+        grid-template-rows: auto;
         gap: 2em;
     }
 
@@ -32,9 +40,10 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+    /* autoprefixer grid: autoplace */
     .packs {
         grid-template-columns: 1fr;
-        justify-items: center;
+        grid-template-rows: auto;
         gap: 2em;
     }
 }
