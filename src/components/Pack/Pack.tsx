@@ -62,12 +62,17 @@ const Pack: FC<IPack> = (
                     <p className={styles.product}>{product}</p>
                 </div>
                 <div className={styles.features}>
-                    <p><span className={styles.count}>{portions}</span> {num_word(portions,['порция', 'порции', 'порций'])}</p>
-                    {gifts > 1
+                    {portions > 0
+                        ? <p><span className={styles.count}>{portions}</span> {num_word(portions,['порция', 'порции', 'порций'])}</p>
+                        : ''
+                    }
+                    {gifts > 0
                         ?
-                        <p><span className={styles.count}>{gifts}</span> {num_word(gifts,['мышь', 'мыши', 'мышей'])} в подарок</p>
-                        :
-                        <p>мышь в подарок</p>
+                        (gifts > 1
+                            ? <p><span className={styles.count}>{gifts}</span> {num_word(gifts,['мышь', 'мыши', 'мышей'])} в подарок</p>
+                            : <p>мышь в подарок</p>
+                        )
+                        : ''
                     }
                     {gifts > 4 ? <p>заказчик доволен</p> : ''}
                 </div>
